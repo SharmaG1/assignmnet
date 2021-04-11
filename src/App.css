@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body * {
+	margin-top: 1.2em;
+}
+
+body {
+	font-family: open sans, sans-serif, Helvetica, Arial;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+.home-card {
+	display: grid;
+	grid-gap: 2em;
+	grid-template-columns: repeat(3, auto);
+	justify-content: space-around;
+	text-align: center;
+}
+
+.card {
+	background: white;
+	text-align: center;
+}
+
+.shift-letter {
+	background-color: rgb(207, 205, 205);
+	height: 80px;
+	width: 80px;
+	margin: auto;
+	position: relative;
+	border-radius: 50%;
+	font-weight: bold;
+}
+.shift-letter > h1 {
+	position: relative;
+	top: 0.4em;
+}
+.home-items > p {
+	position: relative;
+	top: -0.8em;
+}
+/* username */
+.home-items > p:nth-child(3) {
+	font-style: italic;
+	position: relative;
+	top: -1.7em;
+}
+
+/* link */
+.website_link  {
+	position: relative;
+	top: -1.3em;
+	color: rgb(19, 116, 155);
+}
+/* button */
+.home-items > p:nth-child(5) {
+	position: relative;
+	top: -1.1em;
+}
+
+.mid_section {
+	position: relative;
+	border: 2px solid grey;
+	width: 50%;
+	margin: auto;
+	padding: 2rem;
+	text-align: left;
+	font-weight: bold;
+}
+
+.mid_section_buttons {
+	display:flex;
+	justify-content: center;
+}
